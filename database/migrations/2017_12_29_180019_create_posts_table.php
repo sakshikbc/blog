@@ -17,6 +17,12 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->text('body');
+            $table->text('meta_keywords');
+            $table->text('meta_desc');
+            $table->text('seo_title');
+            $table->text('url');
+            $table->string('author_name');
+            $table->datetime('posting_time');
             $table->timestamps();
         });
     }

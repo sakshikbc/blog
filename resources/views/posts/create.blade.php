@@ -31,6 +31,22 @@
     <label for="title">Author Name</label>
     <input type="text" class="form-control" name="author_name" required>
   </div>
+   <div class="form-group">
+    <label for="title">Seo Title</label>
+    <input type="text" class="form-control" name="seo_title" required>
+  </div>
+   <div class="form-group">
+    <label for="title">Url</label>
+    <input type="text" class="form-control" name="url" required>
+  </div>
+   <div class="form-group">
+                <label>Post Date</label>
+                <input type="date" name="post_date" min="2018-02-10">
+              </div>
+              <div class="form-group">
+                <label>Post Time</label>
+                <input type="time" name="post_time" min="00:00">
+              </div>
 
   <button type="submit" class="btn btn-primary">Publish</button>
 </form>
