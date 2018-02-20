@@ -7,6 +7,43 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+{{--     <title>@yield('title')</title>
+        <meta name="description" content="@yield('description')">
+        <meta name="keywords" content="@yield('keywords')"> --}}
+
+    @section('meta_tags')
+    @if($obj)
+        <title>{{$obj->title}} - {{env('SITE_URL', 'Site Name')}}</title>
+        <meta name='description' itemprop='description' content='{{$obj->description}}' />
+        {{-- <?php $tags = implode(',', $obj->tags); ?> --}}
+        <meta name='keywords' content='{{$obj->keywords}}' />
+        <meta name="description" content='{{$obj->description}}'>
+
+        <meta property='article:published_time' content='{{$obj->created_at}}' />
+        {{-- <meta property='article:section' content='event' /> --}}
+
+        <meta property="og:description" content="{{$obj->description}}" />
+        <meta property="og:title" content="{{$obj->title}}" />
+        <meta property="og:url" content="{{url()->current()}}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="en-us" />
+        <meta property="og:locale:alternate" content="en-us" />
+        <meta property="og:site_name" content="{{env('SITE_URL', 'Site Name')}}" />
+        @foreach($obj->images as $image)
+            <meta property="og:image" content="{{$image->url}}" />
+        $endforeach
+        <meta property="og:image:url" content="{{obj->image}}" />
+        <meta property="og:image:size" content="300" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="{{$obj->title}}" />
+        <meta name="twitter:site" content="@BrnBhaskar" />
+    @endif
+@endsection
+
+
+
+
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 

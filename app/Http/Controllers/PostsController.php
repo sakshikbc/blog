@@ -12,12 +12,14 @@ class PostsController extends Controller
     {
     	// $posts = Post::orderby('created_at', 'asc')->get();
     	$posts = Post::latest()->get();
-    	return view('posts.index', compact('posts') );
+        return view('posts.index', compact('posts') );
     }
 
     public function show(Post $post)
     {
-    	return view('posts.show', compact('post'));
+        // dd($post);
+        $media = Image::where('post_id', $post->id)->get();
+    	return view('posts.show', compact('post', 'media'));
     }	
 
      public function create()
@@ -29,8 +31,6 @@ class PostsController extends Controller
     {
         $posting_time = $request->post_date . " " . $request->post_time;
     	$this->validate(request(), [
-    		'title' => 'required|min:2',
-    		'body' => 'required|min:10',
              'image' => 'mimes:jpeg,bmp,png,gif,svg,pdf|max:2048',
 
     	]);
@@ -44,22 +44,40 @@ class PostsController extends Controller
             'author_name' => request('author_name'),
             'posting_time' => $posting_time
     	]);
+//     function() {
+//     $CKEditor = Input::get('CKEditor');
+//     $funcNum = Input::get('CKEditorFuncNum');
+//     $message = $url = '';
+//     if (Input::hasFile('upload')) {
+//         $file = Input::file('upload');
+//         if ($file->isValid()) {
+//             $filename = $file->getClientOriginalName();
+//             $file->move(storage_path().'/images/', $filename);
+//             $url = public_path() .'/images/' . $filename;
+//         } else {
+//             $message = 'An error occured while uploading the file.';
+//         }
+//     } else {
+//         $message = 'No file uploaded.';
+//     }
+//     return '<script>window.parent.CKEDITOR.tools.callFunction('.$funcNum.', "'.$url.'", "'.$message.'")</script>';
+// };
         // dd($post->id);
         if($request->hasFile('file')){
             // dd('yes');
-        foreach ($request->file as $file) {
-            $filename = $file->getClientOriginalName();
+        // foreach ($request->file as $file) {
+            $filename = $request->file->getClientOriginalName();
             $name = pathinfo($filename, PATHINFO_FILENAME);
-            $ext = $file->getClientOriginalExtension();
+            $ext = $request->file->getClientOriginalExtension();
             $filename = substr(str_slug($name), 0, 10)  . '-' . time() . '.' . $ext;
-            $file->move(public_path('media'), $filename);
+            $request->file->move(public_path('media'), $filename);
             $filepath = 'media' . $filename;
             $media = Image::create([
                 'post_id' => $post->id,
                 'image' => 'media/'.$filename,
             ]);
             // dd($media);
-        }
+        // }
     }
 
     	return redirect('/');
