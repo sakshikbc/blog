@@ -10,8 +10,8 @@ class PostsController extends Controller
     //
     public function index()
     {
-    	// $posts = Post::orderby('created_at', 'asc')->get();
-    	$posts = Post::latest()->get();
+        // $posts = Post::orderby('created_at', 'asc')->get();
+        $posts = Post::latest()->get();
         return view('posts.index', compact('posts') );
     }
 
@@ -19,31 +19,32 @@ class PostsController extends Controller
     {
         // dd($post);
         $media = Image::where('post_id', $post->id)->get();
-    	return view('posts.show', compact('post', 'media'));
-    }	
+        return view('posts.show', compact('post', 'media'));
+    }   
 
      public function create()
     {
-    	return view('posts.create');
-    }	
+        return view('posts.create');
+    }   
 
      public function store(Request $request)
     {
         $posting_time = $request->post_date . " " . $request->post_time;
-    	$this->validate(request(), [
+        $this->validate(request(), [
              'image' => 'mimes:jpeg,bmp,png,gif,svg,pdf|max:2048',
 
-    	]);
-    	$post = Post::create([
-    		'title' => $request->title,
-    		'body' => request('body'),
+        ]);
+        $post = Post::create([
+            'title' => $request->title,
+            'body' => request('body'),
             'meta_keywords' => request('meta_keywords'),
             'meta_desc' => request('meta_desc'),
             'seo_title' => request('seo_title'),
             'url' => request('url'),
             'author_name' => request('author_name'),
             'posting_time' => $posting_time
-    	]);
+        ]);
+        
 //     function() {
 //     $CKEditor = Input::get('CKEditor');
 //     $funcNum = Input::get('CKEditorFuncNum');
@@ -80,6 +81,11 @@ class PostsController extends Controller
         // }
     }
 
-    	return redirect('/');
-    }	
+        return redirect('/');
+    }
+
+    public function showAll()
+    {
+        return view('posts.showAll');
+    }
 }

@@ -4,8 +4,8 @@
 <h2>Create a blog</h2>
 <hr>
 <form method="POST" action="/posts" enctype="multipart/form-data">
-	{{ csrf_field() }}
-	@include('layouts.errors')
+  {{ csrf_field() }}
+  @include('layouts.errors')
   <div class="form-group">
     <label for="title">Title</label>
     <input type="text" class="form-control" id="title" name="title" required>
@@ -20,12 +20,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
-<body>{{-- 
-  <div id="editor">
-    <div id='edit' style="margin-top: 30px;"> --}}
-    <textarea class="form-control" name="body"></textarea>
+   {{-- <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<script>
+  tinymce.ini({
+    selector:'#myTextarea',
+    height: 400,
+    plugins: 'code image',
+    toolbar: 'undo redo | image code',
+    images_upload_url: '/posts',
+    images_upload_handler: function(blobInfo, success, failure){
+        vax xhr, formData;
+        xhr = new XMLHttpRequest();
+        xhr.withCredentials = false;
+        xhr.open('POST', 'upload.blade.php');
 
-      {{-- <img class="fr-fir fr-dii" src="https://www.froala.com/assets/editor/docs/photo14.jpg" alt="Old Clock" width="200"/>
+        xhr.onload = function() {
+          var json;
+          if (xhr.status != 200){
+            failure('HTTP Error : ' + xhr.status);
+            return;
+          }
+          json = JSON.parse(xhr.responseText);
+          if(!json || typeof json.location != 'string'){
+            failure('Invalid JSON: ' + xhr.responseText);
+            return;
+          }
+          success(json.location);
+        };
+        formData = new FormData();
+        formData.append('file', blobInfo.blob(), blobInfo.filename());
+        xhr.send(formData);
+    }
+  });
+</script> --}}
+<body>
+  <div id="editor">
+  {{-- 
+    <div  style="margin-top: 30px;"> --}}
+    <textarea class="form-control" name="body" id='edit'></textarea>
+
+     {{--  <img class="fr-fir fr-dii" src="https://www.froala.com/assets/editor/docs/photo14.jpg" alt="Old Clock" width="200"/>
       <h1>Custom Image Button</h1>
 
       <p>Click on the image to see the custom image button.</p>
@@ -33,8 +67,8 @@
       <p>An example of custom button for the image editing popup. More details about defining a custom image button can be found in the <a href="https://www.froala.com/wysiwyg-editor/docs/concepts/custom/button" title="Custom Button Concept" target="_blank">Custom Button</a> concept.</p>
 
       <p>After defining custom buttons you need to add them to the image popup buttons list, using the <a href="https://www.froala.com/wysiwyg-editor/docs/options#imageEditButtons" title="imageEditButtons" target="_blank">imageEditButtons</a> option.</p> --}}
-   {{--  </div>
-  </div> --}}
+    {{-- </div> --}}
+  </div>
 
 
 
@@ -96,7 +130,7 @@ CKEDITOR.replace('my-editor', options);
 </script> --}}
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+{{-- <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script>
   var editor_config = {
     path_absolute : "/",
@@ -135,7 +169,7 @@ CKEDITOR.replace('my-editor', options);
 </script>
 <script>
 $('textarea.my-editor').ckeditor(options);
-</script>
+</script> --}}
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0//js/froala_editor.pkgd.min.js"></script>
 <script type="text/javascript">
@@ -164,11 +198,53 @@ $('textarea.my-editor').ckeditor(options);
       alert($img.attr('src'));
     }
   });
+  $(function() {
+    $('.selector').editable({
+      // Set the image upload URL.
+      imageUploadURL: '/posts',
+
+      imageUploadParams: {
+        id: 'edit'
+      }
+    })
+  });
+//   $(function() {
+//     $('#edit')
+//       .froalaEditor({
+//         // Set the save param.
+//         saveParam: 'content',
+ 
+//         // Set the save URL.
+//         saveURL: 'http://example.com/save',
+ 
+//         // HTTP request type.
+//         saveMethod: 'POST',
+ 
+//         // Additional save params.
+//         saveParams: {id: 'my_editor'}
+//       })
+//       .on('froalaEditor.save.before', function (e, editor) {
+//         // Before save request is made.
+//       })
+//       .on('froalaEditor.save.after', function (e, editor, response) {
+//         // After successfully save request.
+//       })
+//       .on('froalaEditor.save.error', function (e, editor, error) {
+//         // Do something here.
+//       })
+//   });
+ 
+//   $('#saveButton').click (function () {
+//     $('#myEditor').froalaEditor('save.save')
+//   })
 
   $('#edit').froalaEditor({
     imageEditButtons: ['imageDisplay', 'imageAlign', 'imageInfo', 'imageRemove']
   })
+//     $('#edit').froalaEditor({toolbarInline: false})
+
 });
 </script>
+
 @endsection
 
