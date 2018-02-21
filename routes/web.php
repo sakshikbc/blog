@@ -14,9 +14,14 @@ Route::get('/pricing', function () {
 Route::get('/blog', 'PostsController@index')->name('allposts');
 Route::get('/posts/create', 'PostsController@create')->name('newBlog');
 Route::post('/posts', 'PostsController@store');
+Route::post('/posts/update', 'PostsController@update');
 Route::get('/posts/{post}', 'PostsController@show')->name('post');
 Route::get('/posts', 'PostsController@showAll')->name('showAll');
 Route::post('/posts/{post}/comments', 'CommentsController@store');
+Route::get('/posts/delete/{post}', 'PostsController@destroy')->name('post-delete');
+Route::get('/posts/edit/{post}', 'PostsController@edit')->name('post-edit');
+Route::post('/posts/update/{post}', 'PostsController@update')->name('post-update');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

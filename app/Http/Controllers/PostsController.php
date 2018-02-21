@@ -84,8 +84,23 @@ class PostsController extends Controller
         return redirect('/');
     }
 
+    public function destroy($id){
+        $posts = Post::where('id', $id)->delete();
+        return back()->with('success', 'deleted');
+    }
+
     public function showAll()
     {
-        return view('posts.showAll');
+        $posts = Post::all();
+        return view('posts.showAll', compact('posts'));
+    }
+    public function edit($id){
+        $posting = Post::where('id', $id)->get();
+        // dd($posts);
+        return view('posts.edit', compact('posting'));
+    }
+    public function update(Request $request, $id)
+    {
+        dd($request);
     }
 }
