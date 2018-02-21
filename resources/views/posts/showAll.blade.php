@@ -16,8 +16,8 @@
 							<td>{{ $post->id }}</td>
 							<td>{{ $post->title }}</td>
 							<td class="action-button-list" width="230">
-							<a class="" href="{{-- {{ route('users.edit', {user: user.id}) }} --}}" ><i class="bigly-icon-pencil2"></i></a>
-									<a class="" onclick="return destroy(this);" href="{{-- {{ route('users.destroy', {user: user.id}) }} --}}"><i class="bigly-icon-trash"></i></a>
+							<a class="" href="{{ route('post-edit', $post->id) }}" ><i class="bigly-icon-pencil2"></i>View</a>
+									<a class="" onclick="return destroy(this);" href="{{ route('post-delete', $post->id) }}"><i class="bigly-icon-trash">delete</i></a>
 							</td>
 						</tr>
 						@endforeach
