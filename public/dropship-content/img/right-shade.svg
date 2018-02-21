@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1814px" height="1871px" viewBox="0 0 1814 1871" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="90.8365206%" y1="19.0405126%" x2="3.65899117%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#10309B" offset="0%"></stop>
+            <stop stop-color="#141D67" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.2929383%" y1="62.7883571%" x2="67.4658094%" y2="34.846469%" id="linearGradient-2">
+            <stop stop-color="#E7EAF6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="62.2631133%" y1="56.1379212%" x2="59.1140556%" y2="32.8094241%" id="linearGradient-3">
+            <stop stop-color="#E7EAF6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-4-Homepage-" transform="translate(-106.000000, -3232.000000)">
+            <g id="Integration-apps" transform="translate(106.000000, 3100.000000)">
+                <g id="Group-11">
+                    <path d="M1816.92224,667.763505 C1826.2469,613.324962 1790.25665,558.809023 1736.52505,545.996191 L4.1274878,132.888857 L0,2003.85495 L1569.72056,1574.22099 C1622.99322,1559.64022 1673.73832,1503.68936 1683.06304,1449.25046 L1816.92224,667.763505 Z" id="base" fill="url(#linearGradient-1)" transform="translate(909.196432, 1068.371902) scale(-1, 1) translate(-909.196432, -1068.371902) "></path>
+                    <path d="M884.095227,1272.539 C903.264618,1220.74735 877.85697,1160.67287 827.340179,1138.35649 L460.794157,976.430484 C460.794157,976.430484 124.221105,1761.67504 261.361531,1704.35464 C464.85336,1619.30144 716.831396,1513.82997 716.831396,1513.82997 C767.77687,1492.50861 824.615769,1433.23996 843.785589,1381.44715 L884.095227,1272.539 Z" id="shape" fill="url(#linearGradient-2)" opacity="0.0625" transform="translate(559.497858, 1341.888621) scale(-1, 1) rotate(-143.000000) translate(-559.497858, -1341.888621) "></path>
+                    <path d="M1991.66471,682.159533 C2007.62638,629.289452 1987.19812,556.593147 1946.01554,519.768684 L1467.65304,92.028525 C1467.65304,92.028525 1116.48966,1391.95647 1119.54523,1391.18458 C1122.6008,1390.41269 1808.64652,1039.18541 1808.64652,1039.18541 C1857.7896,1014.03081 1910.56656,950.782169 1926.52909,897.909231 L1991.66471,682.159533 Z" id="shape-" fill="url(#linearGradient-3)" opacity="0.0625" transform="translate(1558.309438, 741.606725) scale(-1, 1) rotate(-15.000000) translate(-1558.309438, -741.606725) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
