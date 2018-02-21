@@ -86,6 +86,7 @@ class PostsController extends Controller
 
     public function showAll()
     {
-        return view('posts.showAll');
+        $posts = Post::all();
+        return view('posts.showAll', compact('posts'));
     }
 }
