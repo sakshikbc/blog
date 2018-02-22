@@ -10,7 +10,7 @@
   @include('layouts.errors')
     <div class="form-group">
     <label for="title">Title</label>
-    <input type="text" class="form-control" id="title" name="title" value="{!! old('title', $posts->title) !!}" required>
+    <input type="text" class="form-control" id="title" name="title" value="{{ old('title', $posts->title) }}" required>
   </div>
   <div class="form-group">
     <label for="body">Body</label>
@@ -51,7 +51,7 @@
   <div id="editor">
   {{-- 
     <div  style="margin-top: 30px;"> --}}
-    <textarea class="form-control" name="body" id='edit' value="{!! old('body', $posts->body) !!}"></textarea>
+    <textarea class="form-control" name="body" id='edit' >{{ old('body', $posts->body) }}</textarea>
 
      {{--  <img class="fr-fir fr-dii" src="https://www.froala.com/assets/editor/docs/photo14.jpg" alt="Old Clock" width="200"/>
       <h1>Custom Image Button</h1>
@@ -77,23 +77,23 @@
   {{-- <textarea id="body" name="body" class="form-control" required></textarea> --}}
   <div class="form-group">
     <label for="title">Meta Keywords</label>
-    <input type="text" class="form-control" name="meta_keywords" value="{!! old('meta_keywords', $posts->meta_keywords) !!}" required>
+    <input type="text" class="form-control" name="meta_keywords" value="{{ old('meta_keywords', $posts->meta_keywords) }}" required>
   </div>
   <div class="form-group">
     <label for="title">Meta Description</label>
-    <input type="text" class="form-control" name="meta_desc" value="{!! old('meta_desc', $posts->meta_desc) !!}" required>
+    <input type="text" class="form-control" name="meta_desc" value="{{ old('meta_desc', $posts->meta_desc) }}" required>
   </div>
   <div class="form-group">
     <label for="title">Author Name</label>
-    <input type="text" class="form-control" name="author_name" value="{!! old('author_name', $posts->author_name) !!}" required>
+    <input type="text" class="form-control" name="author_name" value="{{ old('author_name', $posts->author_name) }}" required>
   </div>
    <div class="form-group">
     <label for="title">Seo Title</label>
-    <input type="text" class="form-control" name="seo_title" value="{!! old('seo_title', $posts->seo_title) !!}" required>
+    <input type="text" class="form-control" name="seo_title" value="{{ old('seo_title', $posts->seo_title) }}" required>
   </div>
    <div class="form-group">
     <label for="title">Url</label>
-    <input type="text" class="form-control" name="url" value="{!! old('url', $posts->url) !!}"  required>
+    <input type="text" class="form-control" name="url" value="{{ old('url', $posts->url) }}"  required>
   </div>
    <div class="form-group">
                 <label>Post Date</label>
@@ -105,8 +105,8 @@
               </div>
 
   <button type="submit" class="btn btn-primary">Update</button>
-@endforeach
 </form>
+@endforeach
 {{-- <script src="{{ asset('vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
 <script>
   CKEDITOR.replace( 'summary-ckeditor' );
@@ -203,40 +203,9 @@ $('textarea.my-editor').ckeditor(options);
       }
     })
   });
-//   $(function() {
-//     $('#edit')
-//       .froalaEditor({
-//         // Set the save param.
-//         saveParam: 'content',
- 
-//         // Set the save URL.
-//         saveURL: 'http://example.com/save',
- 
-//         // HTTP request type.
-//         saveMethod: 'POST',
- 
-//         // Additional save params.
-//         saveParams: {id: 'my_editor'}
-//       })
-//       .on('froalaEditor.save.before', function (e, editor) {
-//         // Before save request is made.
-//       })
-//       .on('froalaEditor.save.after', function (e, editor, response) {
-//         // After successfully save request.
-//       })
-//       .on('froalaEditor.save.error', function (e, editor, error) {
-//         // Do something here.
-//       })
-//   });
- 
-//   $('#saveButton').click (function () {
-//     $('#myEditor').froalaEditor('save.save')
-//   })
-
   $('#edit').froalaEditor({
     imageEditButtons: ['imageDisplay', 'imageAlign', 'imageInfo', 'imageRemove']
   })
-//     $('#edit').froalaEditor({toolbarInline: false})
 
 });
 </script>

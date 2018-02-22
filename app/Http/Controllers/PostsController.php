@@ -94,13 +94,24 @@ class PostsController extends Controller
         $posts = Post::all();
         return view('posts.showAll', compact('posts'));
     }
+
     public function edit($id){
         $posting = Post::where('id', $id)->get();
-        // dd($posts);
         return view('posts.edit', compact('posting'));
     }
+    
     public function update(Request $request, $id)
     {
-        dd($request);
+        $post = $request->post();
+        Post::where('id', $id)->update([
+            'title' => $request->title,
+            'body' => $request->body,
+            'meta_keywords' => $request->meta_keywords,
+            'meta_desc' => $request->meta_desc,
+            'author_name' => $request->author_name,
+            'seo_title' => $request->seo_title,
+            'url' => $request->url,
+        ]);
+        return back();
     }
 }

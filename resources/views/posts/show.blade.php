@@ -32,6 +32,9 @@
 				<strong>
 					{{ $comment->created_at->diffForHumans() }}
 				</strong>
+				<strong>
+					{{ $comment->name }}
+				</strong>
 				{{ $comment->body }}
 			</li>
 			@endforeach
@@ -44,6 +47,9 @@
 		<div class="card-block">
 			<form method="POST" action="/posts/{{ $post->id }}/comments">
 				{{ csrf_field() }}
+				<div class="form-group">
+					<input type="text" name="name" class="form-control"  placeholder="Your name here">
+				</div>
 				<div class="form-group">
 					<textarea name="body" placeholder="Your comment here" class="form-control"></textarea>
 				</div>
