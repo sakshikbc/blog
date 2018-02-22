@@ -5,6 +5,9 @@
 Route::get('/', function () {
     return view('pages.index');
 });
+Route::get('/features', function () {
+    return view('pages.features');
+});
 
 Route::get('/pricing', function () {
     return view('pages.pricing');

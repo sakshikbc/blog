@@ -1,5 +1,14 @@
-
-  <nav class="navbar navbar-default nav-transprent mb100 circle">
+  <div class="row">
+            <div class="top-strip">
+                <div class="container">
+              <ul class="list-inline pull-right">
+                <li><a href="">login</a></li>
+                <li><a href="">Support</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  <nav class="navbar navbar-default nav-transprent mb100 stroke">
     <!-- style to use:  fill, stroke, circle, shift -->
           <div class="container">
             <div class="navbar-header">
@@ -26,7 +35,7 @@
                           </li>
                   
                             <li>
-                            <a href="/tools">Features</a>
+                            <a href="/features">Features</a>
                           </li>
                            <li>
                             <a href="/tools">Services</a>
@@ -38,12 +47,8 @@
                             <a href="/tools">Resources</a>
                           </li>
                           <li>
-                            <a href="/tools">Get Started</a>
+                            <!-- <a href="/tools"  class=" btn btn-blue btn-round navbar-btn" style="line-height: inherit;">Get Started</a> -->
                           </li>
-
-                  
-                          <li> <a class="nav-link" href="{{ route('newBlog') }}">New Blog</a></li>
-                          <li> <a class="nav-link" href="{{ route('showAll') }}">Show all</a></li>
                          
                                                     
                         </ul>
