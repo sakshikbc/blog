@@ -10,6 +10,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
+.dib {
+  display: inline-block;
+}
 h1,h2,h3,h4 {
   
     font-family: 'Work Sans', sans-serif;
@@ -1159,7 +1162,7 @@ figcaption p {
   box-shadow: 0 30px 80px rgba(0,0,0,0.14), 0 20px 70px rgba(0,0,0,0.12);
   width: 100%;
   height: 280px;
-   background: -webkit-linear-gradient(48deg, rgb(215, 65, 25), rgb(250, 140, 40));
+  background: -webkit-linear-gradient(48deg, rgb(220, 140, 120), rgb(255, 208, 151));
   border-radius: 15px;
   color: #fff;
   text-align: center;
@@ -1248,7 +1251,7 @@ figcaption p {
     display: block;
 }
 .nav-transprent .navbar-nav>li>a:hover {
- 
+ color: #00418d;
 }
 
 /*navbar style =====================================*/
@@ -1402,4 +1405,41 @@ nav.shift ul li a:hover:after {
     margin: auto;
     border-radius: 0;
   }
+}
+.bg-for-pricing {
+  height: 700px;
+}
+
+
+.display-3 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.pricebox-container {
+  margin-top: -300px;
+}
+.b0 {
+  bottom: 0;
+}
+.tpc {
+  margin-bottom: 200px;
+}
+.faqs-list-item .media{
+padding: 15px 0;
+}
+.faqs-list-item .media .icon-grade{  
+  font-size: 30px;
+    display: block;
+    margin-top: 5px;
+  }
+  .blank-header .nav-transprent .navbar-nav>li>a {
+    color: #001e61;
+}
+.blank-header .top-strip{
+    background: #dadada;
+}
+.blank-header .top-strip li a {
+    color: #001e61;
+  
 }

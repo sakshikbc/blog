@@ -4,16 +4,7 @@
  <div id="content">
     <header>
       <div class="container-fluid front-bg-main por">
-        <div class="row">
-            <div class="top-strip">
-                <div class="container">
-              <ul class="list-inline pull-right">
-                <li><a href="">login</a></li>
-                <li><a href="">Support</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      
       @include('layouts.nav')
           <div class="container">
             <div class="row">
@@ -510,6 +501,7 @@
 
                 </p>
                <button class="btn btn-outline">Free Trial</button>
+               <!-- <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-orange btn-round">Free Trial</a> -->
          </div>
        </div>
      </div>
