@@ -1,10 +1,41 @@
 @extends('layouts.master')
 
 @section('content')
- <div class="blank-header container-fluid">
-   @include('layouts.nav')
-   <h1 class="main-front-heading wow fadeInDown text-center display-3"> What we have for you</h1>
-</div>
+
+<header>
+  <div class="container-fluid front-bg-main por">
+    
+    @include('layouts.nav')
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="main-front-heading wow fadeInDown">
+              We can be your hand while
+              managing your ecommerce
+              marketpalces.
+              </h1>
+              <h3 class="front-sub-h fow fadeinUp" data-wow-delay=".3s">
+              We Offers a service for small businesses to
+              launch their private label brands in multiple ecommerce
+              marketplaces whether it is Indian or
+              Global.
+            
+
+              </h3>
+              <br>
+              <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-blue btn-round">Get Started</a>
+            </div>
+            <div class="col-md-6">
+             
+              
+            </div>
+          </div>
+        </div>
+     <img class="dropship-illustration" src="dropship-content/img/web-page-illustration.svg">  
+      </div>
+  </header>
+
+
 <div class="container-fluid">
     <div class="row">
       <div class="container spacethis ">

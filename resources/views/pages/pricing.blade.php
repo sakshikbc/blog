@@ -209,6 +209,9 @@ Contact Us
        
        </ul>
    </div>
+   <div class="col-md-6">
+     <img class="faq-vector" src="dropship-content/img/FAQ.svg">
+   </div>
  </div>
 </div>
 @endsection

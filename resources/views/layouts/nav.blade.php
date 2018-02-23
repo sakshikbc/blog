@@ -38,7 +38,7 @@
                             <a href="/features">Features</a>
                           </li>
                            <li>
-                            <a href="/tools">Services</a>
+                            <a href="/services">Services</a>
                           </li>
                           <li>
                             <a href="{{ route('allposts') }}">Blog</a>

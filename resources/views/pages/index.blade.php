@@ -2,8 +2,8 @@
 
 @section('content')
  <div id="content">
-    <header>
-      <div class="container-fluid front-bg-main por">
+  <header>
+    <div class="container-fluid front-bg-main por">
       
       @include('layouts.nav')
           <div class="container">

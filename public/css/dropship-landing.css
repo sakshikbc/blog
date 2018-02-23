@@ -1426,7 +1426,7 @@ nav.shift ul li a:hover:after {
   margin-bottom: 200px;
 }
 .faqs-list-item .media{
-padding: 15px 0;
+    padding: 25px 0;
 }
 .faqs-list-item .media .icon-grade{  
   font-size: 30px;
@@ -1442,4 +1442,10 @@ padding: 15px 0;
 .blank-header .top-strip li a {
     color: #001e61;
   
+}
+.faq-vector {
+  width: 270px;
+    margin-top: -90px;
+    display: block;
+    margin: 0 auto;
 }

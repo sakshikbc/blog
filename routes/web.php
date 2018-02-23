@@ -12,6 +12,9 @@ Route::get('/features', function () {
 Route::get('/pricing', function () {
     return view('pages.pricing');
 });
+Route::get('/services', function () {
+    return view('pages.services');
+});
 
 
 Route::get('/blog', 'PostsController@index')->name('allposts');
