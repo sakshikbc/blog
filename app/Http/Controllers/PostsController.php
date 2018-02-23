@@ -44,25 +44,7 @@ class PostsController extends Controller
             'author_name' => request('author_name'),
             'posting_time' => $posting_time
         ]);
-        
-//     function() {
-//     $CKEditor = Input::get('CKEditor');
-//     $funcNum = Input::get('CKEditorFuncNum');
-//     $message = $url = '';
-//     if (Input::hasFile('upload')) {
-//         $file = Input::file('upload');
-//         if ($file->isValid()) {
-//             $filename = $file->getClientOriginalName();
-//             $file->move(storage_path().'/images/', $filename);
-//             $url = public_path() .'/images/' . $filename;
-//         } else {
-//             $message = 'An error occured while uploading the file.';
-//         }
-//     } else {
-//         $message = 'No file uploaded.';
-//     }
-//     return '<script>window.parent.CKEDITOR.tools.callFunction('.$funcNum.', "'.$url.'", "'.$message.'")</script>';
-// };
+   
         // dd($post->id);
         if($request->hasFile('file')){
             // dd('yes');
@@ -94,13 +76,24 @@ class PostsController extends Controller
         $posts = Post::all();
         return view('posts.showAll', compact('posts'));
     }
+
     public function edit($id){
         $posting = Post::where('id', $id)->get();
-        // dd($posts);
         return view('posts.edit', compact('posting'));
     }
+    
     public function update(Request $request, $id)
     {
-        dd($request);
+        $post = $request->post();
+        Post::where('id', $id)->update([
+            'title' => $request->title,
+            'body' => $request->body,
+            'meta_keywords' => $request->meta_keywords,
+            'meta_desc' => $request->meta_desc,
+            'author_name' => $request->author_name,
+            'seo_title' => $request->seo_title,
+            'url' => $request->url,
+        ]);
+        return back();
     }
 }

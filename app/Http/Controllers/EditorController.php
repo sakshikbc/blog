@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TasksController extends Controller
+class EditorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,17 @@ class TasksController extends Controller
      */
     public function index()
     {
-        //
+        $paths = Storage::disk('s3')->files('blog/');
+        $out = [];
+        foreach($paths as $path) {
+            $out[] = [
+               'id' => '',
+               'name' => $path->name,
+               'url' => $path->url
+            ];
+        }
+        return $out;
+        
     }
 
     /**
@@ -34,7 +44,18 @@ class TasksController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
+    }
+
+    public function imageStore( Request $request) {
+        if(!$request->hasFile('file')) return;
+
+        $file = $request->file('file');
+        $filename = 'blog/' . time() . '-' . str_random(15) . $file->getClientOriginalExtension();
+        Storage::disk('s3')->put($filename, $file);
+        return [
+            'link' = config('app.static_url') . $filename;
+        ]; 
     }
 
     /**
@@ -79,6 +100,6 @@ class TasksController extends Controller
      */
     public function destroy($id)
     {
-        
+        //
     }
 }
