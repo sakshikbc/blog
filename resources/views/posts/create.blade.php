@@ -13,17 +13,9 @@
   </div>
   <div class="form-group">
     <label for="body">Body</label>
-
-
-
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
-
-<body>
   <div id="editor">
     <textarea class="form-control" name="body" id='edit'></textarea>
+  </div>
   </div>
   <div class="form-group">
     <input type="file" name="file" accept=".jpg, .png, .jpeg, .pdf, image" multiple="true">
@@ -63,11 +55,14 @@
 </form>
 
 </script>
-<script>
-$('textarea.my-editor').ckeditor(options);
-</script> 
+{{-- <script>
+$('edit').ckeditor(options);
+</script>  --}}
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0//js/froala_editor.pkgd.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0//js/froala_editor.pkgd.min.js"></script>
 <script type="text/javascript">
         function ValidateSize(file) {
             for(var i = 0 ; i<=5; i++){
@@ -133,11 +128,11 @@ $('textarea.my-editor').ckeditor(options);
 //   $('#saveButton').click (function () {
 //     $('#myEditor').froalaEditor('save.save')
 //   })
-
+$(function() {
   $('#edit').froalaEditor({
     imageEditButtons: ['imageDisplay', 'imageAlign', 'imageInfo', 'imageRemove']
   })
-    // $('#edit').froalaEditor({toolbarInline: false})
+    $('#edit').froalaEditor({toolbarInline: false})
 
 });
 </script>
