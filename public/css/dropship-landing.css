@@ -6,6 +6,12 @@
   --secondary-color: #00195b;
 
 }
+.mt150 {
+  margin-top: 150px;
+}
+.mr15 {
+  margin-right: 15px;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 
@@ -40,6 +46,9 @@ h1,h2,h3,h4 {
 }
 .fw400 {
   font-weight: 400;
+}
+.mb200 {
+  margin-bottom: 200px;
 }
 .heading-large {
   font-size: 35px;
@@ -1448,4 +1457,25 @@ nav.shift ul li a:hover:after {
     margin-top: -90px;
     display: block;
     margin: 0 auto;
+}
+
+.global-sbox .trial-box {
+  width: 90%;
+  background: #fff;
+  color: #001d61;
+}
+.global-sbox .g-icon-box {
+  font-size: 80px;
+}
+.services-illustration {
+  width: 100%;
+     
+    float: right;
+    margin-right: -140px;
+}
+.glss {
+    filter: drop-shadow(3px 8px 8px rgba(0,0,0,0.4));
+}
+.glss img {
+  width: 100%;
 }

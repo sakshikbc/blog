@@ -15,6 +15,9 @@ Route::get('/pricing', function () {
 Route::get('/services', function () {
     return view('pages.services');
 });
+Route::get('/global-marketplaces', function () {
+    return view('pages.global-marketplaces');
+});
 
 
 Route::get('/blog', 'PostsController@index')->name('allposts');

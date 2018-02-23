@@ -36,3 +36,31 @@
   $(function() {
      $('#editor').froalaEditor()
    });
+
+  
+$('#image-gallery2').lightSlider({
+     // gallery:true,
+     item:1,
+     // thumbItem:9,
+     slideMargin: 10,
+     speed:500,
+     auto:true,
+     loop:true,
+     onSliderLoad: function() {
+         $('#image-gallery2').removeClass('cS-hidden');
+     }  
+ });
+
+
+    $('#documents-slider2').lightSlider({
+     // gallery:true,
+     item:1,
+     // thumbItem:9,
+     slideMargin: 10,
+     speed:1000,
+     auto:true,
+     loop:true,
+     onSliderLoad: function() {
+         $('#documents-slider2').removeClass('cS-hidden');
+     }  
+ }); 
