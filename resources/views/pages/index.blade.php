@@ -398,7 +398,7 @@
                   </a>
                   <img style="width:100%;" src="dropship-content/img/Women.svg" alt="">
                 
-                  <iframe class="video" id="video" src="https://www.youtube.com/embed/THtY2Tyq2DQ?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                  <iframe class="video" id="video" src="#" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
                 </div>
 
                  <figcaption>
@@ -431,7 +431,7 @@
                   </a>
                   <img style="width:100%;" src="dropship-content/img/Women.svg" alt="">
                 
-                  <iframe class="video" id="video" src="https://www.youtube.com/embed/THtY2Tyq2DQ?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                  <iframe class="video" id="video" src="#" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
                 </div>
 
                  <figcaption>
@@ -464,7 +464,7 @@
                   </a>
                   <img style="width:100%;" src="dropship-content/img/Women.svg" alt="">
                 
-                  <iframe class="video" id="video" src="https://www.youtube.com/embed/THtY2Tyq2DQ?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                  <iframe class="video" id="video" src="#" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
                 </div>
 
                  <figcaption>

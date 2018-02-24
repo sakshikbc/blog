@@ -8,115 +8,105 @@
                    
 </div>
 <div class="container pricebox-container">
-<div class="row">
-<div class="col-md-3">
-<div class="pricing-box">
-<div class="pricing-header text-center">
-<p>&nbsp;</p>
-<h4 class="sub-heading">Free</h4>
-<h1 class="priceh">
-<img src="/img/dollar-symbol.svg" alt="">0/mo
-</h1>
-<small class="month"></small>
-</div>
-<div class="pricing-content">
-<ul class="price-listing">
-<li><img src="/img/checked.svg" alt="400 Conversations">upto 100 Conversations </li>
-<li><img src="/img/checked.svg" alt="Agents">1 Agent</li>
-<li><img src="/img/checked.svg" alt="Email Forwarding">Email Forwarding</li>
-<li><img src="/img/checked.svg" alt="">Insights</li>
-<li><img src="/img/unchecked.svg" alt="">Push Messages</li>
-<li><img src="/img/unchecked.svg" alt="">Assignment Rules</li>
-<li><img src="/img/unchecked.svg" alt="">Unbranded</li>
-</ul>
-</div>
-<div class="pricefooter text-center">
-<a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+    <div class="row">
+        <div class="col-md-4">
+          <div class="pricing-box price-heighlight">
+            <div class="pricing-header text-center">
+            <h4 class="sub-heading">Premium</h4>
+                  <img src="<?= url("dropship-content/pricing/pricing-premium.svg"); ?>" alt="" />
+            <h1 class="priceh">
+              <i class="aqil-icon-rupee-indian"></i> 67/mo
+            </h1>
+            <small class="month"></small>
+            </div>
+              <div class="pricing-content">
+                  <ul class="price-listing">
+                      <li><i class=" aqil-icon-shopping-cart-f"></i>  Unlimited order</li>
+                      <li><i class="aqil-icon-category"></i>  Unlimited category</li>
+                      <li><i class="aqil-icon-suppliers"></i>  Unlimited supplier</li>
+                      <li><i class="aqil-icon-product-box"></i>  Unlimited product</li>
+                      <li><i class="aqil-icon-profits"></i>  0.00 % Commision</li>
+                      <li><i class="aqil-icon-payment-method"></i>  Cash on Delivery Service</li>
+                      <li><i class="aqil-icon-home-f"></i> Shipping and Handling</li>
+                      <li><i class="aqil-icon-logistics-delivery-truck-in-movement"></i> Delivery Management</li>
+                      <li><i class="aqil-icon-package-return"></i>  Return and Refund Management</li>
+                      <li><i class="aqil-icon-messages-alt-f"></i> Chat/Email Support</li>
+                      <li><i class="aqil-icon-document-f"></i>  Product feed</li>
+
+                  </ul>
+              </div>
+                <div class="pricefooter text-center">
+              <a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-box">
+            <div class="pricing-header text-center">
+            <h4 class="sub-heading">Premium</h4>
+                  <img src="<?= url("dropship-content/pricing/advance-pricing.svg"); ?>" alt="" />
+            <h1 class="priceh">
+              <i class="aqil-icon-rupee-indian"></i> 67/mo
+            </h1>
+            <small class="month"></small>
+            </div>
+              <div class="pricing-content">
+                  <ul class="price-listing">
+                      <li><i class=" aqil-icon-shopping-cart-f"></i>  Unlimited order</li>
+                      <li><i class="aqil-icon-category"></i>  Unlimited category</li>
+                      <li><i class="aqil-icon-suppliers"></i>  Unlimited supplier</li>
+                      <li><i class="aqil-icon-product-box"></i>  Unlimited product</li>
+                      <li><i class="aqil-icon-profits"></i>  0.00 % Commision</li>
+                      <li><i class="aqil-icon-payment-method"></i>  Cash on Delivery Service</li>
+                      <li><i class="aqil-icon-home-f"></i> Shipping and Handling</li>
+                      <li><i class="aqil-icon-logistics-delivery-truck-in-movement"></i> Delivery Management</li>
+                      <li><i class="aqil-icon-package-return"></i>  Return and Refund Management</li>
+                      <li><i class="aqil-icon-messages-alt-f"></i> Chat/Email Support</li>
+                      <li><i class="aqil-icon-document-f"></i>  Product feed</li>
+
+                  </ul>
+              </div>
+                <div class="pricefooter text-center">
+              <a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-box">
+            <div class="pricing-header text-center">
+            <h4 class="sub-heading">Premium</h4>
+                  <img src="<?= url("dropship-content/pricing/pricing-basic.svg"); ?>" alt="" />
+            <h1 class="priceh">
+              <i class="aqil-icon-rupee-indian"></i> 67/mo
+            </h1>
+            <small class="month"></small>
+            </div>
+              <div class="pricing-content">
+                  <ul class="price-listing">
+                      <li><i class=" aqil-icon-shopping-cart-f"></i>  Unlimited order</li>
+                      <li><i class="aqil-icon-category"></i>  Unlimited category</li>
+                      <li><i class="aqil-icon-suppliers"></i>  Unlimited supplier</li>
+                      <li><i class="aqil-icon-product-box"></i>  Unlimited product</li>
+                      <li><i class="aqil-icon-profits"></i>  0.00 % Commision</li>
+                      <li><i class="aqil-icon-payment-method"></i>  Cash on Delivery Service</li>
+                      <li><i class="aqil-icon-home-f"></i> Shipping and Handling</li>
+                      <li><i class="aqil-icon-logistics-delivery-truck-in-movement"></i> Delivery Management</li>
+                      <li><i class="aqil-icon-package-return"></i>  Return and Refund Management</li>
+                      <li><i class="aqil-icon-messages-alt-f"></i> Chat/Email Support</li>
+                      <li><i class="aqil-icon-document-f"></i>  Product feed</li>
+
+                  </ul>
+              </div>
+                <div class="pricefooter text-center">
+              <a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+          </div>
+          </div>
+        </div>
 
 </div>
 </div>
-</div>
-<div class="col-md-3">
-<div class="pricing-box">
-<div class="pricing-header text-center">
-<p>&nbsp;</p>
-<h4 class="sub-heading">Startup Plan</h4>
-<h1 class="priceh">
-<img src="/img/dollar-symbol.svg" alt="">37/mo
-</h1>
-<small class="month">flat rate</small>
-</div>
-<div class="pricing-content">
-<ul class="price-listing">
-<li><img src="/img/checked.svg" alt="400 Conversations">upto 400 Conversations</li>
-<li><img src="/img/checked.svg" alt="Agents">upto 5 Agents</li>
-<li><img src="/img/checked.svg" alt="Email Forwarding">Email Forwarding</li>
-<li><img src="/img/checked.svg" alt="">Insights</li>
-<li><img src="/img/unchecked.svg" alt="">Push Messages</li>
-<li><img src="/img/unchecked.svg" alt="">Assignment Rules</li>
-<li><img src="/img/unchecked.svg" alt="">Unbranded</li>
-</ul>
-</div>
-<div class="pricefooter text-center">
-<a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
 
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="pricing-box price-heighlight ">
-<div class="pricing-header text-center ">
-<p>&nbsp;</p>
-<h4 class="sub-heading">Advanced</h4>
-<h1 class="priceh">
-<img src="/img/dollar-symbol.svg" alt="">67/mo
-</h1>
-<span class="month">flat rate</span>
-</div>
-<div class="pricing-content">
-<ul class="price-listing">
-<li><img src="/img/checked.svg" alt="400 Conversations">upto 2000 Conversations</li>
-<li><img src="/img/checked.svg" alt="Agents">upto 15 Agents</li>
-<li><img src="/img/checked.svg" alt="Email Forwarding">Email Forwarding</li>
-<li><img src="/img/checked.svg" alt="">Insights</li>
-<li><img src="/img/checked.svg" alt="">Push Messages</li>
-<li><img src="/img/checked.svg" alt="">Assignment Rules</li>
-<li><img src="/img/checked.svg" alt="">Unbranded</li>
-</ul>
-</div>
-<div class="pricefooter text-center">
-<a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Start your free trial</button></a>
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="pricing-box">
-<div class="pricing-header text-center">
-<p>&nbsp;</p>
-<h4 class="sub-heading">Enterprise</h4>
-<h1 class="priceh">
-Contact Us
-</h1>
-</div>
-<div class="pricing-content">
-<ul class="price-listing">
-<li><img src="/img/checked.svg" alt="400 Conversations">Unlimite Conversations</li>
-<li><img src="/img/checked.svg" alt="Agents">Unlimited Agents</li>
-<li><img src="/img/checked.svg" alt="Email Forwarding">Email Forwarding</li>
-<li><img src="/img/checked.svg" alt="">Insights</li>
-<li><img src="/img/checked.svg" alt="">Push Messages</li>
-<li><img src="/img/checked.svg" alt="">Assignment Rules</li>
-<li><img src="/img/checked.svg" alt="">Unbranded</li>
-</ul>
-</div>
-<div class="pricefooter text-center">
-<a href="https://app.bigradar.io/#/signup"><button style="margin-top:15px;" class="btn btn-blue btn-round">Sign Up Now</button></a>
 
-</div>
-</div>
-</div>
-</div>
-</div>
 
 <div class="container spacethis tpc">
   <div class="text-center mb100">

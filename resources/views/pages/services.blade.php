@@ -24,7 +24,7 @@
               </h3>
               <br>
               <a href="global-marketplaces" class="btn btn-blue btn-round mr15">Global Selling</a>
-              <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-blue btn-round">Indian Marketplaces</a>
+              <a href="indian-marketplaces" class="btn btn-blue btn-round">Indian Marketplaces</a>
 
 
             </div>
@@ -56,7 +56,7 @@
         </div>
         <br><br>
         <a href="global-marketplaces" class="btn btn-blue btn-round mr15">Global Selling</a>
-        <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-blue btn-round">Indian Marketplaces
+        <a href="indian-marketplaces" class="btn btn-blue btn-round">Indian Marketplaces
                   </a>
 
  

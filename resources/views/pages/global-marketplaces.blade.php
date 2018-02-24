@@ -45,7 +45,7 @@
                                 <img src="<?= url("dropship-content/countries-flags/italy.jpg"); ?>" alt="amazon panel" />
                               </li>
                                <li> 
-                                <img src="<?= url("dropship-content/countries-flags/France.jpg"); ?>" alt="amazon panel" />
+                                <img src="<?= url("dropship-content/countries-flags/France.jpg"); ?>" alt="" />
                               </li>
                              <li> 
                                 <img src="<?= url("dropship-content/countries-flags/UK.jpg"); ?>" alt="amazon panel" />
@@ -181,49 +181,49 @@
       </p>  
         <ul class="list-inline marketplaces-list">
           <!-- <li>
-            <img src="/img/market-places/inter-national/ali.png" alt="amazon">
+            <img src="/dropship-content/market-places/inter-national/ali.png" alt="amazon">
           </li> -->
           <li>
-            <img src="/img/market-places/inter-national/amazon.png" alt="amazon">
+            <img src="/dropship-content/market-places/inter-national/amazon.png" alt="amazon">
           </li>
           <li>
-            <img src="/img/market-places/inter-national/Amazon.co.jp_Logo.png">
+            <img src="/dropship-content/market-places/inter-national/Amazon.co.jp_Logo.png">
           </li>
           <li>
-            <img src="/img/market-places/inter-national/amazon.co_.uk-logo-Large.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/amazon.co_.uk-logo-Large.png" alt="rediff">
           </li>
           <li>
-            <img src="/img/market-places/inter-national/ebay.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/ebay.png" alt="rediff">
           </li>
           <li>
-            <img src="/img/market-places/inter-national/Etsy_logo.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/Etsy_logo.png" alt="rediff">
           </li>
             <li>
-            <img src="/img/market-places/inter-national/Lazada-LOGO.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/Lazada-LOGO.png" alt="rediff">
           </li>
           <li>
-            <img src="/img/market-places/inter-national/logo-wadi-en.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/logo-wadi-en.png" alt="rediff">
           </li>
         <li>
-            <img src="/img/market-places/inter-national/amazon-germany.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/amazon-germany.png" alt="rediff">
           </li>
         <li>
-            <img src="/img/market-places/inter-national/amazon-spain.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/amazon-spain.png" alt="rediff">
           </li>
         <li>
-            <img src="/img/market-places/inter-national/amazon-france.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/amazon-france.png" alt="rediff">
           </li>
         <li>
-            <img src="/img/market-places/inter-national/amazon-canada.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/amazon-canada.png" alt="rediff">
           </li>
           <li>
-            <img src="/img/market-places/inter-national/amazon-mexico.png" alt="rediff">
+            <img src="/dropship-content/market-places/inter-national/amazon-mexico.png" alt="rediff">
           </li>
         
         </ul>
       </div>
 
-  <div class="container-fluid spacethis">
+  <div class="container-fluid spacethis mb100">
     <div class="row">
       <div class="container">
       
@@ -243,26 +243,26 @@
             
             <ul id="documents-slider2" class="gallery list-unstyled cS-hidden">
                       <li> 
-                         <img src="<?= url("img/pan-card.jpg"); ?>" alt="pan card requirement">
+                         <img src="<?= url("dropship-content/documents/pan-card.jpg"); ?>" alt="pan card requirement">
                 <h4>Pan Card</h4>
                         </li>
                         <li> 
-                          <img  src="<?= url("img/aadhar-card.jpg"); ?>" alt="aadhar card requirement">
+                          <img  src="<?= url("dropship-content/documents/aadhar-card.jpg"); ?>" alt="aadhar card requirement">
               <h4>Aadhar Card</h4>
                         </li>
                          <li> 
-                          <img src="<?= url("img/cancel-cheque.jpg"); ?>" alt="cheque requirement">
+                          <img src="<?= url("dropship-content/documents/cancel-cheque.jpg"); ?>" alt="cheque requirement">
               <h4>Cancel Cheque</h4>
                         </li>
                          <li> 
-                           <img src="<?= url("img/electricity-bill.jpg"); ?>" alt="electricity bil requirement">
+                           <img src="<?= url("dropship-content/documents/electricity-bill.jpg"); ?>" alt="electricity bil requirement">
                 <h4>Adress Proof</h4>
                         </li> 
                         <li> 
-                           <img src="<?= url("img/trademark.jpg"); ?>" alt="Trademark registration certificate requirement">
+                           <img src="<?= url("dropship-content/documents/trademark.jpg"); ?>" alt="Trademark registration certificate requirement">
                         </li> 
                          <li> 
-                           <img src="<?= url("img/gst-no.jpg"); ?>" alt="gst">
+                           <img src="<?= url("dropship-content/documents/gst-no.jpg"); ?>" alt="gst">
                         </li> 
                        
                       

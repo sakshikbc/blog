@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700,900');
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');*/
 :root {
   --primary-color: #f36d22;
   --secondary-color: #00195b;
@@ -89,7 +89,7 @@ h1,h2,h3,h4 {
   -webkit-text-fill-color: transparent;
   font-weight: 400;
 }
-.f-icon, .icon-grade {
+.f-icon, .icon-grade  {
   background: linear-gradient(135deg,#00418d, #00195b);
  /*background: linear-gradient(45deg, #f36d22 ,#ef4024 );*/
   -webkit-background-clip: text;
@@ -127,8 +127,8 @@ h1,h2,h3,h4 {
     list-style: none;
 }
 .pricing-box .price-listing li {
-    color: #484848;
-    padding: 7px 0;
+    color: #5f5f5f;
+    padding: 10px 0;
     font-weight: 400;
     font-size: 16px;
 }
@@ -947,7 +947,7 @@ header{
     -webkit-transform: translateY(-3px);
   color: #fff;
 }
-.text-gradient {
+.text-gradient, .text-grade {
   background: linear-gradient(135deg,#ee920c,#ff3d17);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1478,4 +1478,42 @@ nav.shift ul li a:hover:after {
 }
 .glss img {
   width: 100%;
+}
+.marketplaces-list li img {
+    width: 165px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    margin: 10px 5px;
+    padding: 4px;
+    border-radius: 3px;
+    background: #fff;
+}
+.lSSlideOuter {
+    filter: drop-shadow(3px 8px 8px rgba(0,0,0,0.4));
+}
+.dmr li {
+    padding: 5px 0;
+    list-style: square;
+}
+.pricing-box img{
+  width: 200px;
+}
+.pricing-box h4{
+  padding-top: 30px;
+      padding-bottom: 20px;
+}
+.pricing-box i{
+   background: linear-gradient(135deg,#00418d, #00195b);
+  /*background: linear-gradient(45deg, #f36d22 ,#ef4024 );*/
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 400;
+}
+.pricing-box .priceh i{
+  
+  background: linear-gradient(45deg, #f36d22 ,#ef4024 );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 400;
 }
