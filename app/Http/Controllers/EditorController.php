@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Storage;
+use App\Image;
 class EditorController extends Controller
 {
     /**
@@ -14,17 +15,13 @@ class EditorController extends Controller
     public function index()
     {
         $paths = Storage::disk('s3')->files('blog/');
-        $out = [];
         foreach($paths as $path) {
             $out[] = [
-               'id' => '',
-               'name' => $path->name,
-               'url' => $path->url
+                'url' => config('app.static_url') . '/' . $path
             ];
-        }
-        return $out;
-        
     }
+    return $out;
+ }
 
     /**
      * Show the form for creating a new resource.
@@ -44,18 +41,28 @@ class EditorController extends Controller
      */
     public function store(Request $request)
     {
-        
+
     }
 
     public function imageStore( Request $request) {
-        if(!$request->hasFile('file')) return;
+        $staticPath = config('app.static_url');
+        if(!$request->hasFile('file')) {
+            return response('No file selected', 403);
+        }
 
         $file = $request->file('file');
-        $filename = 'blog/' . time() . '-' . str_random(15) . $file->getClientOriginalExtension();
-        Storage::disk('s3')->put($filename, $file);
+        $filename = 'blog/' . time() . '-' . str_random(15) . '.' . $file->getClientOriginalExtension();
+        Storage::disk('s3')->put($filename, file_get_contents($file));
         return [
-            'link' = config('app.static_url') . $filename;
-        ]; 
+            'link' => config('app.static_url') . '/' .$filename
+        ];
+    }
+
+    protected function storeImagePath($filename)
+    {
+        $media = new Image($filename);
+        // $media->entity = 'products';
+        $image->posts()->save($media);
     }
 
     /**
@@ -66,7 +73,7 @@ class EditorController extends Controller
      */
     public function show($id)
     {
-        //
+        $exists = Storage::disk('s3')->exists('file.jpg');
     }
 
     /**

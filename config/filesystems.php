@@ -57,10 +57,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
+            'key' => env('AWS_KEY', 'AKIAJ5S6MHZ3OBGJEHSA'),
+            'secret' => env('AWS_SECRET', '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'),
+            'region' => env('AWS_REGION', 'ap-south-1'),
+            'bucket' => env('AWS_BUCKET', 's.bigly.io'),
         ],
 
     ],

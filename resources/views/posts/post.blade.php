@@ -5,7 +5,7 @@
         </a>
       </h2>
             <p class="blog-post-meta">{{ $post->created_at->toFormattedDateString() }}</p>
-          {{ $post->body }}
+          {!! $post->body !!}
    
 </div>
 

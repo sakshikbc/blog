@@ -33,7 +33,12 @@ Route::post('/posts/{post}/comments', 'CommentsController@store');
 Route::get('/posts/delete/{post}', 'PostsController@destroy')->name('post-delete');
 Route::get('/posts/edit/{post}', 'PostsController@edit')->name('post-edit');
 Route::post('/posts/update/{post}', 'PostsController@update')->name('post-update');
-
+Route::resource('/upload', 'EditorController');
+Route::get('/get-blog-image', function() {
+	return view('get-image');
+});
+Route::post('/post-blog-image', 'EditorController@imageStore');
+Route::get('/get-blog-images', 'EditorController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

@@ -13,17 +13,8 @@
   </div>
   <div class="form-group">
     <label for="body">Body</label>
-
-
-
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
-  
-<body>
-    <textarea class="form-control" name="body" id='editor'></textarea>
-  
+    <textarea class="form-control" name="body" id='blog-editor'></textarea>
+  </div>
 
 
 
@@ -56,10 +47,7 @@
                 <input type="time" name="post_time" min="00:00">
               </div>
 
-  <button type="submit" class="btn btn-primary">Publish</button>
+  <button type="submit" id="saveButton" class="btn btn-primary">Publish</button>
 </form>
-
-
-
 @endsection
 
