@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="../../css/plugins/file.css">
   <link rel="stylesheet" href="../../css/plugins/quick_insert.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
-  
+  <link rel="stylesheet" href="../../css/plugins/table.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('aqil-icon/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/lightslider.css') }}">
@@ -75,7 +75,16 @@
 <script type="text/javascript" src="../../js/plugins/save.min.js"></script>
 <script type="text/javascript" src="../../js/plugins/url.min.js"></script>
 <script type="text/javascript" src="../../js/plugins/video.min.js"></script>
-
+<script type="text/javascript" src="../../js/plugins/table.min.js"></script>
+<script>
+  $('#blog-editor').froalaEditor({
+    imageUploadURL: '/post-blog-image',
+    imageUploadParams: {
+      _token: "{{ csrf_token() }}"
+    },
+    imageManagerLoadURL: '/get-blog-images'
+  });
+</script>
 
 
     </body>

@@ -53,7 +53,7 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
-    'static_url' => env('APP_URL', 'http://s.bigly.io'),
+    'static_url' => env('STATIC_URL', 'http://s.bigly.io'),
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
