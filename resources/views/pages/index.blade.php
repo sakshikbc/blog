@@ -355,7 +355,7 @@
   </div>
 
  
-  <div class="container-fluid spacethis overflow-hidden" data-speed="2" data-margin="100" >
+  <div class="container-fluid spacethis overflow-hidden mb200" data-speed="2" data-margin="100" >
     <div class="row">
       <div class="col-md-1">
         
@@ -488,24 +488,6 @@
     </div>
 
   </div>
-   <div class="container space30">
-     <div class="row scroll-box" >
-       <div class="col-md-6 col-md-offset-3">
-         <div class="trial-box">
-          <br>
-           <h1>Start Your Free Trial</h1>
-           <p class="lead text-white">
-                  Women are the most important part of every family.  <br>
-                  Lorem ipsum dolor sit amet.
-               
-
-                </p>
-               <button class="btn btn-outline">Free Trial</button>
-               <!-- <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-orange btn-round">Free Trial</a> -->
-         </div>
-       </div>
-     </div>
-   </div>
-
+   
 </div>
 @endsection

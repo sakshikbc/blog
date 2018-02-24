@@ -58,13 +58,6 @@ class EditorController extends Controller
         ];
     }
 
-    protected function storeImagePath($filename)
-    {
-        $media = new Image($filename);
-        // $media->entity = 'products';
-        $image->posts()->save($media);
-    }
-
     /**
      * Display the specified resource.
      *

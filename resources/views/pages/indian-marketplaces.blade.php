@@ -23,44 +23,8 @@
 
             </div>
             <div class="col-md-6 glss">
-                  <ul id="image-gallery2" class="gallery list-unstyled cS-hidden inner-img-100">
-                            <li> 
-                                <img src="<?= url("dropship-content/countries-flags/Philippines.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                               <li> 
-                                <img src="<?= url("dropship-content/countries-flags/Thailand.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                              <li> 
-                                <img src="<?= url("dropship-content/countries-flags/Singapore.jpg"); ?>" alt="amazon panel" />
-                              </li> 
-                              <li> 
-                                <img src="<?= url("dropship-content/countries-flags/Indonesia.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                              <li> 
-                                <img src="<?= url("dropship-content/countries-flags/Japan.jpg"); ?>" alt="amazon panel" />
-                              </li> 
-                             
-                                <li> 
-                                <img src="<?= url("dropship-content/countries-flags/italy.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                               <li> 
-                                <img src="<?= url("dropship-content/countries-flags/France.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                             <li> 
-                                <img src="<?= url("dropship-content/countries-flags/UK.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                             <li> 
-                                <img src="<?= url("dropship-content/countries-flags/arab-world.jpg"); ?>" alt="amazon panel" />
-                              </li> 
-                              <li> 
-                                <img src="<?= url("dropship-content/countries-flags/Germany.jpg"); ?>" alt="amazon panel" />
-                              </li>  
-                               <li> 
-                                <img src="<?= url("dropship-content/countries-flags/uae.jpg"); ?>" alt="amazon panel" />
-                              </li>
-                           
-                        </ul>
             </div>
+                 <img class="impi" src="{{asset('dropship-content/img/indian marketplace gr.svg') }}" alt="">
           </div>
         </div>
       </div>

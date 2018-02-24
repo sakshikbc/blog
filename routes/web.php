@@ -21,6 +21,9 @@ Route::get('/global-marketplaces', function () {
 Route::get('/indian-marketplaces', function () {
     return view('pages.indian-marketplaces');
 });
+Route::get('/be-a-supplier', function () {
+    return view('pages.be-a-supplier');
+});
 
 
 Route::get('/blog', 'PostsController@index')->name('allposts');

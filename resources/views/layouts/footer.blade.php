@@ -1,5 +1,5 @@
 
-<footer id="footer" style="height: 400px;">
+<footer id="footer">
      <!-- <div class="cure">
        <img src="/bigly/public/img/curve.svg" alt="">
      </div> -->
@@ -30,8 +30,8 @@
          <h4 class="footer-heading">SERVICES</h4>
          <div class="list-group footerlinks">
                <a href="/bigly/public/home/" class="">E-commerce services </a>
-               <a href="http://bigly.io/international-marketplaces/"> Global selling services</a>
-               <a href="/bigly/public/bigly-dropship-supplier/" class="">Be a Supplier</a>
+               <a href=""> Global selling services</a>
+               <a href="be-a-supplier" class="">Be a Supplier</a>
            </div>
        </div>    
        
