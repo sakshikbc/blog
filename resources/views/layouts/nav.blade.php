@@ -2,8 +2,8 @@
             <div class="top-strip">
                 <div class="container">
               <ul class="list-inline pull-right">
-                <li><a href="">login</a></li>
-                <li><a href="">Support</a></li>
+                <li><a href="http://dropship.bigly.io/login?type=seller">Login / SignUp</a></li>
+                
               </ul>
             </div>
           </div>
@@ -41,10 +41,11 @@
                             <a href="/services">Services</a>
                           </li>
                           <li>
-                            <a href="{{ route('allposts') }}">Blog</a>
+                            <!-- <a href="{{ route('allposts') }}">Blog</a> -->
+                            <a href="https://www.bigly.io/blog/">Blog</a>
                           </li>
                             <li>
-                            <a href="/tools">Resources</a>
+                            <a href="/resources">Resources</a>
                           </li>
                           <li>
                             <!-- <a href="/tools"  class=" btn btn-blue btn-round navbar-btn" style="line-height: inherit;">Get Started</a> -->

@@ -1,0 +1,119 @@
+
+
+@media (max-width: 767px) {
+  .collapse.navbar-collapse {
+  	border-color: #e7e7e7;
+  	    background: linear-gradient(135deg,#dc8c78, #fbb78f);
+  	    position: relative;
+  	    z-index: 1;
+  	    border: none;
+  	    margin-top: 30px;
+  }
+
+
+     .front-bg-main {
+         background-image: url(../dropship-content/img/webpage-background-mobile.svg);
+         background-repeat: no-repeat;
+         width: 100%;
+         background-size: 160% 90%;
+         height: 850px;
+         background-position: top;
+     }
+  
+  .main-front-heading.top{
+  	font-size: 20px;
+    margin-top: 80%;
+    font-weight: 400;
+  }
+  .front-sub-h {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.spacethis {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.text-widget {
+	font-size: 22px;
+	text-align: center;
+	    display: block;
+}
+.vi-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.middle-heading {
+    line-height: 28px;
+    padding-top: 40px;
+    font-size: 18px;
+}
+.shutter-animaiton {
+     position: absolute;
+     overflow: hidden;
+     top: -45px;
+     width: 100%;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+
+.footer-img {
+    background-size: 92%;
+}
+#footer {
+	background:#eaeaea;
+	padding-top: 250px;
+}
+.shape-left,.shape-right {
+	width: 270px;
+	display: block;
+	margin: 0 auto;
+}
+.navbar-brand img,footer-logo {
+	width: 70px;
+	margin-top: -6px;
+}
+.features-box {
+    margin-bottom: 30px;
+}
+._first-col {
+	margin-top: 70px !important;
+}
+.footer-img {
+	height: 75px;
+}
+.footer-social-icon li a {
+	font-size: 18px;
+}
+.shutter-box {
+    width: 147px;
+    height: 120px;
+    position: absolute;
+    left: 113px;
+    top: 71px;
+    overflow: hidden;
+}
+.suas {
+	transform: translateY(-50px);
+	margin-left: 16px;
+}
+.why-bigly-dropship-row .media-heading {
+    color: #000;
+    font-weight: 500;
+}
+.navbar-toggle {
+	background-color: #fff;
+	border:none;
+}
+
+.front-bg-main.bg-for-about-us {
+
+       background-image: url(../dropship-content/img/webpage-background.svg); 
+      background-repeat: no-repeat;
+      width: 100%;
+     background-size: 200% 100%;
+         height: 320px;
+      background-position: top;
+ 
+}
+}

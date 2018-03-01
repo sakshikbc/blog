@@ -15,9 +15,9 @@
             <h4 class="sub-heading">Premium</h4>
                   <img src="<?= url("dropship-content/pricing/pricing-premium.svg"); ?>" alt="" />
             <h1 class="priceh">
-              <i class="aqil-icon-rupee-indian"></i> 67/mo
+              <i class="aqil-icon-rupee-indian"></i>4999
             </h1>
-            <small class="month"></small>
+            <small class="month">90days</small>
             </div>
               <div class="pricing-content">
                   <ul class="price-listing">
@@ -46,9 +46,9 @@
             <h4 class="sub-heading">Premium</h4>
                   <img src="<?= url("dropship-content/pricing/advance-pricing.svg"); ?>" alt="" />
             <h1 class="priceh">
-              <i class="aqil-icon-rupee-indian"></i> 67/mo
+              <i class="aqil-icon-rupee-indian"></i>1999
             </h1>
-            <small class="month"></small>
+            <small class="month">30days</small>
             </div>
               <div class="pricing-content">
                   <ul class="price-listing">
@@ -77,9 +77,9 @@
             <h4 class="sub-heading">Premium</h4>
                   <img src="<?= url("dropship-content/pricing/pricing-basic.svg"); ?>" alt="" />
             <h1 class="priceh">
-              <i class="aqil-icon-rupee-indian"></i> 67/mo
+              <i class="aqil-icon-rupee-indian"></i>Free
             </h1>
-            <small class="month"></small>
+            <small class="month">Forever</small>
             </div>
               <div class="pricing-content">
                   <ul class="price-listing">

@@ -1,11 +1,12 @@
 @extends('layouts.master')
 
 @section('content')
- <div class="blank-header container-fluid">
+ <div class="container-fluid por front-bg-main bg-for-pricing small-price">
+   
    @include('layouts.nav')
-   <h1 class="main-front-heading wow fadeInDown text-center display-3"> What we have for you</h1>
-</div>
-<div class="container-fluid">
+        <h1 class="main-front-heading wow fadeInDown text-center display-3">Features</h1>
+ </div>
+<!-- <div class="container-fluid">
     <div class="row">
       <div class="container spacethis ">
         <div class="row mt100">
@@ -32,7 +33,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container-fluid">
       <div class="row">
@@ -45,15 +46,13 @@
             <div class="col-md-6 ">
               <div class="shape-text">
                  <div class="por">
-                      <h2 class="text-widget">Trending Products</h2>
+                      <h2 class="text-widget">Wide Range of Products</h2>
+
 
                       <div class="w-line wow-reveal"></div>
                   </div>
                   <p class="vi-text lead">
-            Get all the trending
-            products in your
-            dashboard suggestion to
-            earn maximum profits.
+           Get easy access with suggestion for Wide range of Product Categories at your Dashboard. You will get regular updates for Niche Products.
 
                   </p>
               </div>
@@ -74,16 +73,16 @@
               <div class="col-md-6 ">
                 <div class="shape-text">
                    <div class="por">
-                        <h2 class="text-widget">Connect Multiple Store</h2>
+                        <h2 class="text-widget">Connect to Multiple Online Stores</h2>
+
 
 
                         <div class="w-line wow-reveal"></div>
                     </div>
                     <p class="vi-text lead">
-                    If you own multiple websites
-                    for dropshipping you can add
-                    your other store also through
-                    API.
+                   If you have more than one Website, you can connect them with BiglyDropship with the help of API to import products.
+
+
 
                     </p>
                 </div>
@@ -108,10 +107,9 @@
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-                     Don't worry if you are selling
-                     through other channels, we can
-                     help you to connect your facebook
-                     shop or other stores.
+                   BiglyDropship supports Online Stores at Facebook and WhatsApp. You can connect your Online Stores from different Channels to BiglyDropship.
+
+
                       </p>
                   </div>
                 </div>
@@ -131,20 +129,14 @@
                 <div class="col-md-6">
                   <div class="shape-text">
                      <div class="por">
-                          <h2 class="text-widget">Automated Order
-                                   COD Support
+                          <h2 class="text-widget">
+                                  Cash on Delivery
                                   </h2>
 
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-                  India's most preferred
-                  payment mode is Cash on
-                  Delivery and while
-                  considering this point in
-                  mind we have also added
-                  the option of COD for your
-                  customer convenience.
+              Cash on Delivery is the most Preferred Delivery mode in India. We are providing you world’s first Dropshipping Platform with Cash on Delivery Service.
 
                       </p>
                   </div>
@@ -171,11 +163,7 @@
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-                Trade is all about money
-                and profit, hence we are in
-                between you and supplier
-                to manage all your
-                payments and security
+               Aid to Trade is all about Transaction with Security. We are between you. We consider all payment security concerns to make payment process easy and secure.
                       </p>
                   </div>
                 </div>
@@ -196,17 +184,14 @@
                   <div class="shape-text">
                      <div class="por">
                           <h2 class="text-widget">
-                            Doorstep Delivery
+                          Doorstep Delivery
                                   </h2>
 
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-               Your Customer
-               convenience is our
-               responsibility and for this
-               we are providing delivery
-              to your customer doorstep.
+             BiglyDropship have complete Logistics Solution for your Business. Our Logistics Partner will deliver parcel from Supplier to Customer at their doorstep.
+
 
                       </p>
                   </div>
@@ -233,12 +218,9 @@
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-            We know starting a business
-            is all about earning profit and
-            we are adding a
-            manufacturers every hour
-            who can provide you the
-            cheapest product.
+         We know starting a business is all about earnign profit.We are providing high profit margin on every product so you can earn enormously.
+
+
 
 
                       </p>
@@ -261,18 +243,16 @@
                   <div class="shape-text">
                      <div class="por">
                           <h2 class="text-widget">
-                         On Demand Order Creation
+                        Manual Order Creation
+
 
                                   </h2>
 
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-                          If you are selling on facebook,
-                          whatsapp, instagram. You can
-                          also create a manual order to
-                          ship the product by our
-                          dropshippers.
+                      Whenever you get any order except WooCommerce Store, you can create manual Order to proceed Shipment.
+
 
 
 
@@ -301,11 +281,8 @@
                           <div class="w-line wow-reveal"></div>
                       </div>
                       <p class="vi-text lead">
-          Ordering Processing part
-          cannot be completed without
-          product tracking, your
-          customer and you can easily
-          track the product.
+        We will provide you Tracking so you can help your Customer in Tracking parcel. Your Customer will easily track the Parcel from Supplier Warehouse to their Doorstep.
+
                       </p>
                   </div>
                 </div>

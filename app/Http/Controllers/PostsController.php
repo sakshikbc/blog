@@ -29,7 +29,7 @@ class PostsController extends Controller
 
      public function store(Request $request)
     {
-        $posting_time = $request->post_date . " " . $request->post_time;
+        // $posting_time = $request->post_date . " " . $request->post_time;
         $this->validate(request(), [
              'image' => 'mimes:jpeg,bmp,png,gif,svg,pdf|max:2048',
 
@@ -42,7 +42,7 @@ class PostsController extends Controller
             'seo_title' => request('seo_title'),
             'url' => request('url'),
             'author_name' => request('author_name'),
-            'posting_time' => $posting_time
+            // 'posting_time' => $posting_time
         ]);
    
         // dd($post->id);

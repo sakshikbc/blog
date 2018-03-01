@@ -22,7 +22,7 @@ class CreatePostsTable extends Migration
             $table->text('seo_title');
             $table->text('url');
             $table->string('author_name');
-            $table->datetime('posting_time');
+            // $table->datetime('posting_time');
             $table->timestamps();
         });
     }

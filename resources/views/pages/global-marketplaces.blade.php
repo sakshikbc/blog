@@ -18,8 +18,8 @@
 
               </h3>
               <br>
-              <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-blue btn-round mr15">Global Selling</a>
-              <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-blue btn-round">Indian Marketplaces</a>
+              <a href="/global-marketplaces" class="btn btn-blue btn-round mr15">Global Marketplaces</a>
+              <a href="/indian-marketplaces" class="btn btn-blue btn-round">Indian Marketplaces</a>
 
 
             </div>
@@ -229,7 +229,7 @@
       
         <div class="row">
           <div class="col-md-6">
-            <h3 class="h1">Documents Required to Sell Online</h3>
+            <h3 class="">Documents Required to Sell Online</h3>
             <ul class="dmr">
               <li>Import-Export Code (IEC Code)</li>
               <li>ID Proof (Voter ID Card/Driving License/Passport)</li>

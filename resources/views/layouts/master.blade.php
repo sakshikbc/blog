@@ -1,10 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta name="language" content="English">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <title>@yield('title')</title>
 
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/froala_editor.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins/code_view.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins/colors.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins/emoticons.css') }}">
@@ -22,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/lightslider.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/dropship-landing.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/mobile.css') }}">
     
 </head>
 
@@ -42,8 +49,6 @@
 <script src="{{ asset('js/WOW.js') }}"></script>  
 <script src="{{ asset('js/lightslider.min.js') }}"></script>  
 <script src="{{ asset('js/froala_editor.min.js') }}"></script>  
-<script src="{{ asset('js/pluginController.js') }}"></script>  
-
 <script type="text/javascript" src="{{ asset('js/froala_editor.min.js"') }}  ></script>
 <script type="text/javascript" src="{{ asset('js/plugins/align.min.js') }} "></script>
 <script type="text/javascript" src="{{ asset('js/plugins/char_counter.min.js') }} "></script>
@@ -71,7 +76,9 @@
 <script type="text/javascript" src="{{ asset('js/plugins/save.min.js') }} "></script>
 <script type="text/javascript" src="{{ asset('js/plugins/url.min.js') }} "></script>
 <script type="text/javascript" src="{{ asset('js/plugins/video.min.js') }} "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 
 
+<script src="{{ asset('js/pluginController.js') }}"></script>  
     </body>
 </html>
