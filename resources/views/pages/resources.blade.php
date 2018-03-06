@@ -15,8 +15,13 @@
                 
                </div>
               <div class="blog-content">
-                <h3 class="post-header">Lorem ipsum dolor sit amet, consectetur </h3>
-                <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti natus, quibusdam voluptate. Eveniet deleniti mollitia</p>
+                <h3 class="post-header">
+                  Beginner's
+                  Guide To Sell
+                  Online On
+                  Facebook
+                </h3>
+                <p class="post-content">A Complete Guide for Entrepreneurs and FB users to setting up a business on Facebook</p>
                 <a href="dropship-content/img/eBook.pdf" class="read-more-link">Download</a>
               </div>
             </div>
