@@ -5674,9 +5674,8 @@
     <div class="container spacethis text-center ">
         <div class=" wow zoomIn">
           <h1 class="text-widget">Selling at own Online Store is every Entrepreneur’s Dream</h1>
-        <p >
-        BiglyDropship have a network of Suppliers dealing in 25+ Categories. Our Suppliers are Supplying products to Retailers for free of Cost. Retailers can import Products at their own Online Store without payment. Retailers have to pay when they place order to Supplier for Delivering Products at Customer’s Doorstep. We are providing Logistics Solution & Cash on Delivery Service as Aid to your Trade.
-
+        <p>
+          India’s first Automated Dropshipping Platform made for your WordPress-WooCommerce Store. You can import products at your online Store without paying money to sell your Customers. BiglyDropship is providing Complete Logistics Solution & Cash on Delivery for your Business.        
         </p>
 
         </div>

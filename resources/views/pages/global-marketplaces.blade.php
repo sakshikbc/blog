@@ -87,7 +87,6 @@
       </p>
    
       <br>
-      <a href="http://dropship.bigly.io/login?type=seller" class="btn btn-orange btn-round">Get Started</a>
       </div>
     </div>
     <div class="col-md-8">

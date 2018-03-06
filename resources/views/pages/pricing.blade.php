@@ -3,7 +3,7 @@
 @section('content')
  <div class="container-fluid por front-bg-main bg-for-pricing">
    @include('layouts.nav')
-   <h1 class="main-front-heading wow fadeInDown text-center display-3"> pricing</h1>
+   <h1 class="main-front-heading wow fadeInDown text-center display-3"> Pricing</h1>
               
                    
 </div>
@@ -36,14 +36,14 @@
                   </ul>
               </div>
                 <div class="pricefooter text-center">
-              <a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+              <a href="http://dropship.bigly.io/"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
           </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="pricing-box">
             <div class="pricing-header text-center">
-            <h4 class="sub-heading">Premium</h4>
+            <h4 class="sub-heading">Starter</h4>
                   <img src="<?= url("dropship-content/pricing/advance-pricing.svg"); ?>" alt="" />
             <h1 class="priceh">
               <i class="aqil-icon-rupee-indian"></i>1999
@@ -67,15 +67,15 @@
                   </ul>
               </div>
                 <div class="pricefooter text-center">
-              <a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+              <a href="http://dropship.bigly.io/"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
           </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="pricing-box">
             <div class="pricing-header text-center">
-            <h4 class="sub-heading">Premium</h4>
-                  <img src="<?= url("dropship-content/pricing/pricing-basic.svg"); ?>" alt="" />
+            <h4 class="sub-heading">Bassic</h4>
+                  <img style="width: 150px;" src="<?= url("dropship-content/pricing/pricing-basic.svg"); ?>" alt="" />
             <h1 class="priceh">
               <i class="aqil-icon-rupee-indian"></i>Free
             </h1>
@@ -98,7 +98,7 @@
                   </ul>
               </div>
                 <div class="pricefooter text-center">
-              <a href="https://app.bigradar.io/#/signup"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
+              <a href="http://dropship.bigly.io/"><button class="btn btn-blue btn-round">Sign Up Now</button></a>
           </div>
           </div>
         </div>
@@ -111,7 +111,7 @@
 <div class="container spacethis tpc">
   <div class="text-center mb100">
     <div class="por dib">
-     <h1 class="text-widget">Faqs</h1>
+     <h1 class="text-widget">FAQs</h1>
            <div class="w-line wow-reveal b0" ></div>
     </div>
   </div>

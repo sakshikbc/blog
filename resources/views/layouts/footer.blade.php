@@ -27,7 +27,7 @@
                <li><a href="https://www.facebook.com/biglydropship/" class="facebook"> <i class="aqil-icon-facebook2"></i> </a></li>
                <li><a href="https://twitter.com/biglydropship" class="twitter">  <i class="aqil-icon-twitter2"></i> </a></li>
                <li><a href="https://www.instagram.com/biglydropship/" class="insta"> <i class="aqil-icon-instagram-fill"></i></a></li>
-               <li><a href="" class="googleplus"> <i class="aqil-icon-google-plus-logo"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/118264371950893223634" class="googleplus"> <i class="aqil-icon-google-plus-logo"></i></a></li>
              </ul>
       </div>
       <div class="col-md-3 col-xs-6">
@@ -36,6 +36,7 @@
               <a href="/" class="">Home</a>
               <a href="about-us" class="">About Us</a>
               <a href="/services" class="">Services</a>
+              <a href="/contact-us" class="">Contact Us</a>
           </div>
       </div>
     

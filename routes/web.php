@@ -9,6 +9,10 @@ Route::get('/features', function () {
     return view('pages.features');
 });
 
+Route::get('/contact-us', function () {
+    return view('pages.contact-us');
+});
+
 Route::get('/pricing', function () {
     return view('pages.pricing');
 });

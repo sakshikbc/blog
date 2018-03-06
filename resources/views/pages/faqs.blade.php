@@ -14,7 +14,7 @@
         <div class="row">
                  <div class="panel-group col-md-6">
                 <div class="col-md-12">
-                    <div class="faq-box active" style="height: 250px;">
+                    <div class="faq-box active">
                         <div class="panel-heading">
                           <h4 class="faq-header">
                            What is Dropship?

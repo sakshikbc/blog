@@ -1,4 +1,4 @@
-
+/*extra small screen*/
 
 @media (max-width: 767px) {
   .collapse.navbar-collapse {
@@ -116,4 +116,22 @@
       background-position: top;
  
 }
+}
+
+/*small-screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+
+/*md-screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+@media (min-width: 1200px) {
+ .dropship-illustration {
+   max-width: 800px;
+  }
 }
