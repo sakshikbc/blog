@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins/file.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins/quick_insert.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('aqil-icon/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('icon-bigly/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/lightslider.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/dropship-landing.css') }}">

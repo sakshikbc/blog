@@ -24,9 +24,9 @@
           </p>
           <h4 class="footer-heading">Follow Us</h4>
              <ul class="footer-social-icon list-inline">
-               <li><a href="" class="facebook"> <i class="aqil-icon-facebook2"></i> </a></li>
-               <li><a href="" class="twitter">  <i class="aqil-icon-twitter2"></i> </a></li>
-               <li><a href="" class="insta"> <i class="aqil-icon-instagram-fill"></i></a></li>
+               <li><a href="https://www.facebook.com/biglydropship/" class="facebook"> <i class="aqil-icon-facebook2"></i> </a></li>
+               <li><a href="https://twitter.com/biglydropship" class="twitter">  <i class="aqil-icon-twitter2"></i> </a></li>
+               <li><a href="https://www.instagram.com/biglydropship/" class="insta"> <i class="aqil-icon-instagram-fill"></i></a></li>
                <li><a href="" class="googleplus"> <i class="aqil-icon-google-plus-logo"></i></a></li>
              </ul>
       </div>
@@ -43,7 +43,7 @@
          <h4 class="footer-heading">RESOURCES</h4>
          <div class="list-group footerlinks">
                <a href="/faqs">FAQs</a>
-               <a href="be-a-supplier" class="">Ebook</a>
+               <a href="/resources" class="">Ebook</a>
            </div>
        </div>    
      
